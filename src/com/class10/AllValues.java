@@ -7,8 +7,8 @@ public class AllValues {
 		char[] grades = { 'A', 'B', 'C', 'D', 'E', 'F' };// size is 6
 
 		for (int i = 0; i <= grades.length-1; i++) { //if leave out (-1),will get 6 then error= Arryoutofboundery.
-			System.out.println(grades[i]);
+			System.out.print(grades[i] + " , ");
 		}
-
+      System.out.println( "  ");
 	}
 }

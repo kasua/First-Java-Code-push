@@ -2,7 +2,7 @@ package com.class12;
 
 import java.util.Scanner;
 
-public class StringTask1 {
+public class StringArrayScannerTask {
 
 	public static void main(String[] args) {
 		

@@ -12,9 +12,10 @@ public class Task2Arry {
 	        
 	        int a=3;
 	        System.out.println(names[a]);//Talgat
-	        a+=2;
 	       
-	        System.out.println(names[a]);//Mehmet
+	        a+=2;
+	       System.out.println(names[a]);//Mehmet
+	       
 	        a-=4;
 	        System.out.println(names[a]);//Mike
 	        

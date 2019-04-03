@@ -1,6 +1,6 @@
 package com.class12;
 
-public class StringManipulation {
+public class StringManipulation1 {
     /*
      * length() ------- ->Returns the number of characters in this string. 
      * charAt(index)----> Returns the character at the specified index from this string. 
