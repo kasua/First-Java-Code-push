@@ -30,7 +30,7 @@ System.out.println("The value of num1 is "+num1+ " and value of num2 is "+num2+"
   My name is __and my Last name is___
   I am ____student
   I live in a city of ____ in a state of___
-  my phone number is_____
+  my classExamplePhone number is_____
  */
 		 
         String firstName= "Mike";
@@ -53,9 +53,9 @@ System.out.println("I am "+grade+"student");
 
 System.out.println("I live in city of "+city+" in a state of "+state);
 
-// my phone number is_____
+// my classExamplePhone number is_____
 
-System.out.println("My phone number is "+phoneNumber);
+System.out.println("My classExamplePhone number is "+phoneNumber);
 
 
 

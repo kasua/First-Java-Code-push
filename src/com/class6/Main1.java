@@ -20,7 +20,7 @@ public class Main1 {
 		 *word2: banana
 		 *int1: 2
 		 *int2: 2   AND
-		 *word1: phone
+		 *word1: classExamplePhone
 		 *word2: pie
 		 *int1: 2
 		 *int2: 3  NONE 

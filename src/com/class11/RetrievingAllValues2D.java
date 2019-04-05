@@ -25,7 +25,7 @@ public class RetrievingAllValues2D {
 		}
 
 		String[][] food = {                // 3 rows,4 columns
-				{ "burger", "fries", "hot dog", "meatloaf" }, // 1 array or 1 row
+				{ "burger", "fries", "hot classExampleDog", "meatloaf" }, // 1 array or 1 row
 				{ "lo mein", "fried rice" }, 
 				{ "biriyani", "korma", "naan", "chick peas" } 
 				};

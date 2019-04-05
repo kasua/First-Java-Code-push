@@ -1,6 +1,6 @@
 package com.class16;
 
-public class Computer {
+ public class classExampleComputer {
 
 	String os, brand;
 	boolean mouse, keyboard;
@@ -8,7 +8,7 @@ public class Computer {
 
 	public static void main(String[] args) {
 
-		Computer comp1 = new Computer();
+		classExampleComputer comp1 = new classExampleComputer();
 		comp1.os = "Windows";
 		comp1.mouse = true;
 		comp1.keyboard = true;
@@ -20,7 +20,7 @@ public class Computer {
 		comp1.doJavaCoding();
 		comp1.playMusic();
 
-		Computer comp2 = new Computer();
+		classExampleComputer comp2 = new classExampleComputer();
 		comp2.mouse = false;
 		comp2.keyboard = false;
 		comp2.screen = 4;
@@ -34,14 +34,14 @@ public class Computer {
 	}
 
 	void watchMovie() {
-		System.out.println("We can watch movie on a computer " + brand);
+		System.out.println("We can watch movie on a classExampleComputer " + brand);
 	}
 
 	void doJavaCoding() {
-		System.out.println("We can do Java coding on our computer " + brand);
+		System.out.println("We can do Java coding on our classExampleComputer " + brand);
 	}
 
 	void playMusic() {
-		System.out.println("We can play music on our computer " + brand);
+		System.out.println("We can play music on our classExampleComputer " + brand);
 	}
 }

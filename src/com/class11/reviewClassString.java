@@ -31,7 +31,7 @@ public class reviewClassString {
 			 * Clears/removes all white spaces or tabs on both ends and prints.
 			 */
 		
-		String para = "The quick brown fox jumps over the lazy dog.";               
+		String para = "The quick brown fox jumps over the lazy classExampleDog.";               
 		
 		System.out.println(para.toLowerCase());                
 		System.out.println(para.toUpperCase());                
