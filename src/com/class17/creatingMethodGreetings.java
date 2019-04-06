@@ -1,11 +1,11 @@
 package com.class17;
 
-public class creatMethodGreetings {
+public class creatingMethodGreetings {
      // Benefit of methods 
 	 // 1.reusable the code
 	
 	public static void main(String[] args) {
-       creatMethodGreetings obj = new creatMethodGreetings();
+       creatingMethodGreetings obj = new creatingMethodGreetings();
 		
 		// how to find largest number
 		

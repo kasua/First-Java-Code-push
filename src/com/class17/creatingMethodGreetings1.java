@@ -1,9 +1,9 @@
 package com.class17;
 
-public class creatMethodGreetings1 {
+public class creatingMethodGreetings1 {
 
 	public static void main(String[] args) {
-		creatMethodGreetings1 obj = new creatMethodGreetings1();
+		creatingMethodGreetings1 obj = new creatingMethodGreetings1();
 		obj.askHowAreYou("  "); //argument
 
 	}
@@ -21,7 +21,7 @@ public class creatMethodGreetings1 {
 	}
 	
 	void askHowAreYou3(String name) {
-		System.out.println("Hoe are you " + name);
+		System.out.println("How are you " + name);
 
 	}
 

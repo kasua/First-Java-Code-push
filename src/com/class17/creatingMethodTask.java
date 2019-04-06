@@ -1,22 +1,22 @@
 package com.class17;
 
-public class creatMethodTask {
+public class creatingMethodTask {
 
 	/*
-	 * Create a method that will take 2 parameters as a numbers and prints which
-	 * number is larger.
+	 * Create a method that will take 2 parameters as a numbers and print 
+	 * the larger number.
 	 * 
 	 */
 	public static void main(String[] args) { 
-		creatMethodTask obj=new creatMethodTask();
+		creatingMethodTask obj=new creatingMethodTask();
 		
 		
-		obj.findLarger(15, 25);
-		obj.evenOrOdd(5);
-		obj.palindromeOrNot("madams");
+		obj.findLargerNo(15, 25);
+		obj.numberIsEvenOrOdd(5);
+		obj.StringIsPalindromeOrNot("madams");
 	}
 
-	void findLarger(int a, int b) {
+	void findLargerNo(int a, int b) {
 		if (a > b) {
 			System.out.println(a + " is larger that " + b);
 		} else {
@@ -26,7 +26,7 @@ public class creatMethodTask {
  
 	// Create a method that will take a number and prints whether the number is even or odd. 
 	
-	void evenOrOdd(int num) {
+	void numberIsEvenOrOdd(int num) {
 		
 		if (num % 2 == 0) {
 			System.out.println(num + " is even");
@@ -36,7 +36,7 @@ public class creatMethodTask {
    
 	//Create a method that will print whether a given  String is palindrome or not.
 	
-	void palindromeOrNot(String word) {
+	void StringIsPalindromeOrNot(String word) {
 		
 		String reverse = "";
 		
