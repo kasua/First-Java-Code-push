@@ -30,9 +30,9 @@ public class creatingMethodGreetings {
 	void findLargest(int a, int b) {// method with 2 parameters
 
 		if (a > b) {
-			System.out.println(" A is larger than B");
+			System.out.println(" isWrittenCorrectly is larger than B");
 		} else {
-			System.out.println("B is larger than A");
+			System.out.println("B is larger than isWrittenCorrectly");
 		}
 	}
 }

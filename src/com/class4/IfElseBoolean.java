@@ -4,7 +4,7 @@ public class IfElseBoolean {
 
 	public static void main(String[] args) {
 		/*
-		 * declare boolean variable isRaining, and if is true--> 
+		 * declare boolean variableClassA isRaining, and if is true--> 
 		stay home
 		 */
 		

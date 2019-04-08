@@ -9,7 +9,7 @@ public class Task2 {
 		 * task 2
 		 * Write a program that will read three inputs of scores (quiz, mid term, and final scores) and 
 		 * determine the grade based on the following rules
-		 * if the average score >=90 =>grade=A
+		 * if the average score >=90 =>grade=isWrittenCorrectly
 		 * if the average score >= 70 and <90 => grade=B
 		 * if the average score>=50 and <70 =>grade=C
 		 * if the average score<50 =>grade=F
@@ -37,7 +37,7 @@ public class Task2 {
 	
 		
 		  if (average>=90) {
-	            System.out.println(" Your Grade is A");
+	            System.out.println(" Your Grade is isWrittenCorrectly");
 	        }else if(average>=70 && average <90) {
 	            System.out.println(" Your Grade is B");
 	        }else if(average>=50 && average < 70) {

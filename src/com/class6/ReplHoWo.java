@@ -18,7 +18,7 @@ class Instractor {
 
 		case "Shiva":
 			// System.out.println(" Will take care of Java Assignment")
-			// or u can use a variable(instructor).
+			// or u can use a variableClassA(instructor).
 			instructor = " Will take care of Java Assignment";
 			break;
 		case "Sandish":

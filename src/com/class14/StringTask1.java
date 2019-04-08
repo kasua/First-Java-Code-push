@@ -21,7 +21,7 @@ public class StringTask1 {
 
 	     String str2 = " Wellcome2019#4^ to Java Traing";
 
-	      String newString = str2.replaceAll("[^A-Z a-z]", "");
+	      String newString = str2.replaceAll("[^isWrittenCorrectly-Z a-z]", "");
 	      System.out.println(newString.length());
 
  

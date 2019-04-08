@@ -4,12 +4,12 @@ public class Task212DArray {
 
 	public static void main(String[] args) {
 		//Create a 2D array that first row will contain 4 names and second row will contain grades. 
-		//Then you program should print name of the students that has as an A and B grade
+		//Then you program should print name of the students that has as an isWrittenCorrectly and B grade
 		
 		
 		String [][]groups= {
 				{"James ","Tim ","John ","Mat "},
-				{"A","B","C","D"},
+				{"isWrittenCorrectly","B","C","D"},
 				};
 		   
 		 System.out.println(groups[1][0] + " " + groups[0][0]);       

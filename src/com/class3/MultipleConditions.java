@@ -4,9 +4,9 @@ public class MultipleConditions {
 
 	public static void main(String[] args) {
 		/*
-		 * Create a Java program and declare int variable that 
+		 * Create a Java program and declare int variableClassA that 
 		 * will hold a day.
-		 * Based on the value of the variable your program should print
+		 * Based on the value of the variableClassA your program should print
 		 * the name of the day.*/
    
          int day =15;

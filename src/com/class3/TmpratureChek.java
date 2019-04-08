@@ -3,7 +3,7 @@ package com.class3;
 public class TmpratureChek {
 	
 	public static void main(String[] args) {
-		  //2. Creat a java program & name it Temprature Check. Creat variable to store temprature.
+		  //2. Creat a java program & name it Temprature Check. Creat variableClassA to store temprature.
 		 //your program should check if temprature is below 32 then it should print
 		//"Water will freeze with temprature__". Otherwise "Water will NOT freeze with temprature _". 
 		

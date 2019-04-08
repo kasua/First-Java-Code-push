@@ -24,8 +24,8 @@ public class stringBooleanValue {
       
 		  /*Print out the position of the first occurrence of "c"
 		   * Print out the position of the first occurrence of " "
-		   * Print out the position of the first occurrence of the variable target1
-		   * Print out the position of the first occurrence of the variable target2  
+		   * Print out the position of the first occurrence of the variableClassA target1
+		   * Print out the position of the first occurrence of the variableClassA target2  
            */
 	    
 		 

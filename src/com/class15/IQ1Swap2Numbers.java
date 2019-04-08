@@ -1,8 +1,8 @@
 package com.class15;
 
 public class IQ1Swap2Numbers {
-      /*Write a program to swap 2 numbers without a temporary variable? 
-      * Swap  2 strings without a temporary variable?*/
+      /*Write a program to swap 2 numbers without a temporary variableClassA? 
+      * Swap  2 strings without a temporary variableClassA?*/
 	
 	public static void main(String[] args) {
 		

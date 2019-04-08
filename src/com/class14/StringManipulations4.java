@@ -29,10 +29,10 @@ public class StringManipulations4 {
 		String replacedNoNumbers =str1.replaceAll("[0-9]" , "");
 		System.out.println (replacedNoNumbers);
 		
-		String  newString= str1.replaceAll("[^A-Z a-z]" , "");
+		String  newString= str1.replaceAll("[^isWrittenCorrectly-Z a-z]" , "");
 		System.out.println (newString);
 		
-		//String replacedNoCharacter = replacedNoNumbers.replaceAll("[A-z a-z]" , " ");
+		//String replacedNoCharacter = replacedNoNumbers.replaceAll("[isWrittenCorrectly-z a-z]" , " ");
 		//System.out.println (replacedNoCharacter);
 		
 		//3 giteride off words

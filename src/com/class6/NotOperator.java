@@ -8,7 +8,7 @@ public class NotOperator {
 		 * 
 		 */
        boolean a=!true;
-       System.out.println("The value of boolean variable is "+a);
+       System.out.println("The value of boolean variableClassA is "+a);
        
        boolean snow=true;
        //it is not snowing--> I will come to the class otherwise I will stay at home

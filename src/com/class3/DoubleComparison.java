@@ -8,7 +8,7 @@ public class DoubleComparison {
 		     double a= 50;
 		     double b= 20;
 		    //1.Create a Java program and name it Double Comparison. 
-		    //Declare 2 double values and if value of first variable is higher then print
+		    //Declare 2 double values and if value of first variableClassA is higher then print
 		    //“Double value __ is larger than __ .” and vs
 		
 		if( a>b) {

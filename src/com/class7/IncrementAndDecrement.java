@@ -7,7 +7,7 @@ public class IncrementAndDecrement {
        // a++;               a--;
 		
 		int a=299;
-		int b =a++;// first assign the variable----> increment the variable
+		int b =a++;// first assign the variableClassA----> increment the variableClassA
 		          //(int b=a -->299;                 a=a+1 299+1 =300).
 		
 		System.out.println(a);// 300

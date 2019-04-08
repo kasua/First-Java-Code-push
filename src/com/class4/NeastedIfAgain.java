@@ -4,7 +4,7 @@ public class NeastedIfAgain {
 
 	public static void main(String[] args) {
 		/*
-		*  declare variable for gpa and having a diploma
+		*  declare variableClassA for gpa and having a diploma
 		*  if user has a diploma-> congratulations --> 
 		*  if gpa is higher 3.5--> hire person
 		*  else do not hire.

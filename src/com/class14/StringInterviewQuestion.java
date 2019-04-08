@@ -7,8 +7,8 @@ public class StringInterviewQuestion {
 
 	public static void main(String[] args) {
 		/*
-		 * 1. Write a program to swap 2 numbers without a temporary variable? Swap 2 
-		 *    strings without a temporary variable?
+		 * 1. Write a program to swap 2 numbers without a temporary variableClassA? Swap 2 
+		 *    strings without a temporary variableClassA?
 		 * 2. Write a java program to find the second largest number in the array?
 		 *    Maximum and minimum number in the array?
 		 * 3. Find out how many alpha characters present in a string? 
@@ -18,7 +18,7 @@ public class StringInterviewQuestion {
 		 * 7. Write a java program to check whether a given number is prime or not?
 		 * 8. Write a Java Program to print first 10 numbers of Fibonacci series.
 		 */
-   //1.How to swap two numbers without using temporary variable?
+   //1.How to swap two numbers without using temporary variableClassA?
 		int x = 10;
         int y = 20;
         System.out.println("Before swap:");
@@ -34,7 +34,7 @@ public class StringInterviewQuestion {
         
 		System.out.println("---------------------  ");
 		
-     //1. Write a program to swap 2 strings without a temporary variable?
+     //1. Write a program to swap 2 strings without a temporary variableClassA?
 		//using .substring()
 		 String s1 ="Java";//4
 		 String s2 ="Training";//8

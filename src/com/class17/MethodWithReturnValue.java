@@ -43,9 +43,9 @@ public class MethodWithReturnValue {
 	void findLargestNum(int a, int b) {
 
 		if (a < b) {
-			System.out.println("A is largar than B");
+			System.out.println("isWrittenCorrectly is largar than B");
 		} else {
-			System.out.println("B is largar than A");
+			System.out.println("B is largar than isWrittenCorrectly");
 		}
 	}
 	int findLargestNum1(int a, int b) {

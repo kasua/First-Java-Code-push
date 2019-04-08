@@ -6,7 +6,7 @@ public class classExampleCar {
 	
 	public static void main(String[] args) {
 		
-		//ClassName variable=new ClassName();
+		//ClassName variableClassA=new ClassName();
 		//1 object
 		
 		classExampleCar car1=new classExampleCar();
