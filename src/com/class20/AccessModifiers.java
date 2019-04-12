@@ -13,6 +13,12 @@ public class AccessModifiers {
 		 * should be available only within same class.
 		 * 
 		 */
+	private String name="John";// we create here & called  in class 21; only public will be called
+    String name1="Bilal";
+    protected String name2="Asha";
+    public String name3 ="Tetiana";
+    
+	         
 
 	    public static void main(String[] args) {
 	        
@@ -31,7 +37,7 @@ public class AccessModifiers {
 	        for (String word:array) {
 	            System.out.println(word);
 	        }
-	        
+	        obj.sayHello();
 	    }
 	    
 	    
@@ -74,4 +80,10 @@ public class AccessModifiers {
 	        String[] words=str.split(" ");
 	        return words;
 	    }
+	   
+	    
+	    void sayHello() {
+	    	System.out.println("Hello Students");
+	    }
+	    
 	}
