@@ -21,5 +21,9 @@ public class InstanceVariable {
          InstanceVariable obj1=new InstanceVariable();
         System.out.println(obj1.name);
 	}
+	
+	public void hello(String name) {
+		System.out.println("Hello "+name);
+	}
 
 }

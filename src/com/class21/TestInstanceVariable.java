@@ -3,8 +3,8 @@ package com.class21;
 public class TestInstanceVariable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		InstanceVariable obj=new InstanceVariable();
+		System.out.println(obj.name); //
 	}
 
 }

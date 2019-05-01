@@ -10,12 +10,27 @@ package com.class21;
 
 public class Employee {
 	
-	public void E
-	
-	
+	int eID;
+	double salary;
+	public static String CEO="Sumair";
 
 	public static void main(String[] args) {
+		
+		Employee emp1=new Employee();
+		emp1.eID=1;
+		emp1.salary=100000;
+		
+		emp1.employeeInfo();
+		
+		Employee emp2=new Employee();
+		emp2.eID=2;
+		emp2.salary=150000;
+		emp2.employeeInfo();
+		}
 
+	public void employeeInfo() {
+		System.out.println("The CEO is "+CEO+" the employee ID is "+eID+" and  salary is "+salary);
 	}
+  }
 
-}
+
