@@ -4,9 +4,9 @@ package com.class33;
 //Retrieve all values from hashset in 2 different ways.    
 //Retrieve all values in alphabetical order.
 
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+ import java.util.HashSet;
+ import java.util.Iterator;
+ import java.util.Set;
 
 public class HashSetCitiesExample {
 
@@ -29,25 +29,33 @@ public class HashSetCitiesExample {
 
 		// Check if the HashSet contains an element
 
-		String cityName = "Paris";
+		   String cityName = "Paris";
 
 		if (popularCities.contains(cityName)) {
+			
 			System.out.println(cityName + " is in the popular cities set.");
-		} else {
-			System.out.println(cityName + " is not in the popular cities set.");
-		}
+		   
+		        } else {
+			 
+		        	System.out.println(cityName + " is not in the popular cities set.");
+		     
+		            }
 
-		System.out.println("== a HashSet using simple for-each loop ===");
+		            System.out.println("====== for-each loop ===");
 
-		for (String popularCities1 : popularCities) {
-			System.out.println(popularCities1);
+		
+		            for (String popularCities1 : popularCities) {
+			
+			               System.out.println(popularCities1);
 
-			System.out.println("=== a HashSet using iterator() ===");
+			        System.out.println("=========using iterator() ===");
 
-			Iterator<String> popularCities2 = popularCities.iterator(); 
+			         
+			        Iterator<String> popularCities2 = popularCities.iterator(); 
 
-			while (popularCities.hasNext()) {
-				System.out.println(popularCities.next);
+			 while (popularCities2.hasNext()) {
+				
+				System.out.println(popularCities2.next());
 
 			}
 		}

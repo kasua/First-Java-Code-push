@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Set;
 
-public class TaskMapCountries {
+public class TaskhashMapCountries {
 
 	public static void main(String args[]) {
 
@@ -49,7 +49,7 @@ public class TaskMapCountries {
 				String c = itCountry.next();
 				System.out.println("Country " + c + " has capital city " + countryCapitalMap.get(c));
 			}
-			System.out.println("PRINTING ONLY VALUES");
+			/*System.out.println("PRINTING ONLY VALUES");
 
 			Collection<String> capitals = countryCapitalMap.values();
 
@@ -57,8 +57,19 @@ public class TaskMapCountries {
 
 			for (String s1 : country) {
 				System.out.println("Capital city " + s1);
-			}
+			}*/
+			
+			System.out.println("PRINTING ONLY key");
+			
+			Collection<String> capitals = countryCapitalMap.keySet();
+
+			System.out.println("Using for each loop------");
+
+			for (String s2 : capitals) {
+				System.out.println("Capital city " + s2);
 		}
 
 	}
+  }
 }
+	

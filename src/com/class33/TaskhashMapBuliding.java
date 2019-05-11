@@ -15,7 +15,7 @@ package com.class33;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TaskMapBuliding {
+public class TaskhashMapBuliding {
 
 	public static void main(String[] args) {
 
