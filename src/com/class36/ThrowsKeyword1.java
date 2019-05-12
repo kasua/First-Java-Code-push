@@ -1,6 +1,6 @@
-package com.class35;
+package com.class36;
 
-public class ThrowsKeyword {
+public class ThrowsKeyword1 {
 	
 	//public static String name;
 	public static String name="John";
